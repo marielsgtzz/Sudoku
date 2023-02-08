@@ -764,8 +764,8 @@ public class SudokuInterfaz extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Unica solucion");
             
             } catch(Exception e) { //Si no pudo resolver el sudoku, atrapará la excepción y mostrará el error
-               JOptionPane.showMessageDialog(null, "Error: No posible solution");
-               Mensaje.setText("Error: No posible solution");
+               JOptionPane.showMessageDialog(null, "Error: No hay solucion posible");
+               Mensaje.setText("Error: No hay solucion posible");
                //System.out.println(e.getMessage());
             }  
     }//GEN-LAST:event_SolveBtnActionPerformed
