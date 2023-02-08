@@ -139,7 +139,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         jPanel3.add(Mensaje);
 
         SolveBtn.setBackground(new java.awt.Color(204, 255, 153));
-        SolveBtn.setText("Solve");
+        SolveBtn.setText("Resolver");
         SolveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SolveBtnActionPerformed(evt);
@@ -148,7 +148,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         jPanel3.add(SolveBtn);
 
         ClearBtn.setBackground(new java.awt.Color(255, 153, 153));
-        ClearBtn.setText("Clear");
+        ClearBtn.setText("Reiniciar");
         ClearBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ClearBtnActionPerformed(evt);
@@ -157,7 +157,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         jPanel3.add(ClearBtn);
 
         RulesBtn.setBackground(new java.awt.Color(255, 255, 204));
-        RulesBtn.setText("Sudoku Rules");
+        RulesBtn.setText("Reglas Sudoku");
         RulesBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RulesBtnActionPerformed(evt);
@@ -756,16 +756,16 @@ public class SudokuInterfaz extends javax.swing.JFrame {
                     cardinalidad++;
                 }
             }
-            Mensaje.setText("Sudoku solved!");
-            JOptionPane.showMessageDialog(null, "Sudoku solved!");
+            Mensaje.setText("Sudoku resuelto!");
+            JOptionPane.showMessageDialog(null, "Sudoku resuelto!");
             if((81-restriction)<=17)           // si la cantidad de números (distitnos a cero) es mayor que 17, la solución es única
-                JOptionPane.showMessageDialog(null, "Subrestricted solution");
+                JOptionPane.showMessageDialog(null, "Solucion subrestringida");
             else
-                JOptionPane.showMessageDialog(null, "Only solution");
+                JOptionPane.showMessageDialog(null, "Unica solucion");
             
             } catch(Exception e) { //Si no pudo resolver el sudoku, atrapará la excepción y mostrará el error
-               JOptionPane.showMessageDialog(null, "Error: No posible solution");
-               Mensaje.setText("Error: No posible solution");
+               JOptionPane.showMessageDialog(null, "Error: No hay solucion posible");
+               Mensaje.setText("Error: No hay solucion posible");
                //System.out.println(e.getMessage());
             }  
     }//GEN-LAST:event_SolveBtnActionPerformed
