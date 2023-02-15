@@ -129,7 +129,6 @@ public class SudokuInterfaz extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Sudoku");
-        getContentPane().setLayout(new java.awt.BorderLayout());
 
         Mensaje.setColumns(20);
         Mensaje.addActionListener(new java.awt.event.ActionListener() {
@@ -139,7 +138,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         });
         jPanel3.add(Mensaje);
 
-        SolveBtn.setBackground(new java.awt.Color(204, 255, 153));
+        SolveBtn.setBackground(new java.awt.Color(164, 255, 203));
         SolveBtn.setText("Resolver");
         SolveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -176,7 +175,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         txtCuadro1.setBackground(new java.awt.Color(204, 204, 204));
         txtCuadro1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         txtCuadro1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txtCuadro1.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        txtCuadro1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtCuadro1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtCuadro1ActionPerformed(evt);
@@ -187,7 +186,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         jTextField2.setBackground(new java.awt.Color(204, 204, 204));
         jTextField2.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField2.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
@@ -198,91 +197,91 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         jTextField3.setBackground(new java.awt.Color(204, 204, 204));
         jTextField3.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField3.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField3);
 
         jTextField4.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField4.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField4);
 
         jTextField5.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField5.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField5);
 
         jTextField6.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField6.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField6);
 
         jTextField7.setBackground(new java.awt.Color(204, 204, 204));
         jTextField7.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField7.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField7);
 
         jTextField8.setBackground(new java.awt.Color(204, 204, 204));
         jTextField8.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField8.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField8);
 
         jTextField9.setBackground(new java.awt.Color(204, 204, 204));
         jTextField9.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField9.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField9);
 
         jTextField10.setBackground(new java.awt.Color(204, 204, 204));
         jTextField10.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField10.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField10.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField10);
 
         jTextField11.setBackground(new java.awt.Color(204, 204, 204));
         jTextField11.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField11.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField11.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField11);
 
         jTextField12.setBackground(new java.awt.Color(204, 204, 204));
         jTextField12.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField12.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField12.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField12);
 
         jTextField13.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField13.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField13.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField13);
 
         jTextField14.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField14.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField14.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField14);
 
         jTextField15.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField15.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField15.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField15);
 
         jTextField16.setBackground(new java.awt.Color(204, 204, 204));
         jTextField16.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField16.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField16.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField16);
 
         jTextField17.setBackground(new java.awt.Color(204, 204, 204));
         jTextField17.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField17.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField17.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField17);
 
         jTextField18.setBackground(new java.awt.Color(204, 204, 204));
         jTextField18.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField18.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField18.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField18ActionPerformed(evt);
@@ -293,40 +292,40 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         jTextField19.setBackground(new java.awt.Color(204, 204, 204));
         jTextField19.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField19.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField19.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField19);
 
         jTextField20.setBackground(new java.awt.Color(204, 204, 204));
         jTextField20.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField20.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField20.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField20);
 
         jTextField21.setBackground(new java.awt.Color(204, 204, 204));
         jTextField21.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField21.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField21.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField21);
 
         jTextField22.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField22.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField22.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField22);
 
         jTextField23.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField23.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField23.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField23);
 
         jTextField24.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField24.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField24.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField24);
 
         jTextField25.setBackground(new java.awt.Color(204, 204, 204));
         jTextField25.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField25.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField25.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField25ActionPerformed(evt);
@@ -337,18 +336,18 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         jTextField26.setBackground(new java.awt.Color(204, 204, 204));
         jTextField26.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField26.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField26.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField26);
 
         jTextField27.setBackground(new java.awt.Color(204, 204, 204));
         jTextField27.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField27.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField27.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField27);
 
         jTextField28.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField28.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField28.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField28ActionPerformed(evt);
@@ -358,12 +357,12 @@ public class SudokuInterfaz extends javax.swing.JFrame {
 
         jTextField29.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField29.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField29.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField29);
 
         jTextField30.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField30.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField30.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField30.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField30ActionPerformed(evt);
@@ -374,7 +373,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         jTextField31.setBackground(new java.awt.Color(204, 204, 204));
         jTextField31.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField31.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField31.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField31.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField31ActionPerformed(evt);
@@ -385,18 +384,18 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         jTextField32.setBackground(new java.awt.Color(204, 204, 204));
         jTextField32.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField32.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField32.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField32);
 
         jTextField33.setBackground(new java.awt.Color(204, 204, 204));
         jTextField33.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField33.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField33.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField33);
 
         jTextField34.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField34.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField34.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField34ActionPerformed(evt);
@@ -406,7 +405,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
 
         jTextField35.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField35.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField35.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField35ActionPerformed(evt);
@@ -416,7 +415,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
 
         jTextField36.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField36.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField36.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField36ActionPerformed(evt);
@@ -426,55 +425,55 @@ public class SudokuInterfaz extends javax.swing.JFrame {
 
         jTextField37.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField37.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField37.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField37.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField37);
 
         jTextField38.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField38.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField38.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField38);
 
         jTextField39.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField39.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField39.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField39.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField39);
 
         jTextField40.setBackground(new java.awt.Color(204, 204, 204));
         jTextField40.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField40.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField40.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField40.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField40);
 
         jTextField41.setBackground(new java.awt.Color(204, 204, 204));
         jTextField41.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField41.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField41.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField41.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField41);
 
         jTextField42.setBackground(new java.awt.Color(204, 204, 204));
         jTextField42.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField42.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField42.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField42.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField42);
 
         jTextField43.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField43.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField43.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField43.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField43);
 
         jTextField44.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField44.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField44.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField44.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField44);
 
         jTextField45.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField45.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField45.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField45.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField45);
 
         jTextField46.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField46.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField46.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField46.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField46.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField46ActionPerformed(evt);
@@ -484,57 +483,57 @@ public class SudokuInterfaz extends javax.swing.JFrame {
 
         jTextField47.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField47.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField47.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField47.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField47);
 
         jTextField48.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField48.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField48.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField48.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField48);
 
         jTextField49.setBackground(new java.awt.Color(204, 204, 204));
         jTextField49.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField49.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField49.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField49.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField49);
 
         jTextField50.setBackground(new java.awt.Color(204, 204, 204));
         jTextField50.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField50.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField50.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField50.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField50);
 
         jTextField51.setBackground(new java.awt.Color(204, 204, 204));
         jTextField51.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField51.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField51.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField51.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField51);
 
         jTextField52.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField52.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField52.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField52.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField52);
 
         jTextField53.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField53.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField53.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField53.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField53);
 
         jTextField54.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField54.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField54.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField54.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField54);
 
         jTextField55.setBackground(new java.awt.Color(204, 204, 204));
         jTextField55.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField55.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField55.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField55.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField55);
 
         jTextField56.setBackground(new java.awt.Color(204, 204, 204));
         jTextField56.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField56.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField56.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField56.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField56.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField56ActionPerformed(evt);
@@ -545,34 +544,34 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         jTextField57.setBackground(new java.awt.Color(204, 204, 204));
         jTextField57.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField57.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField57.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField57.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField57);
 
         jTextField58.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField58.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField58.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField58.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField58);
 
         jTextField59.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField59.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField59.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField59.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField59);
 
         jTextField60.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField60.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField60.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField60.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField60);
 
         jTextField61.setBackground(new java.awt.Color(204, 204, 204));
         jTextField61.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField61.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField61.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField61.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField61);
 
         jTextField62.setBackground(new java.awt.Color(204, 204, 204));
         jTextField62.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField62.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField62.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField62.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField62.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField62ActionPerformed(evt);
@@ -583,7 +582,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         jTextField63.setBackground(new java.awt.Color(204, 204, 204));
         jTextField63.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField63.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField63.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField63.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField63.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField63ActionPerformed(evt);
@@ -594,19 +593,19 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         jTextField64.setBackground(new java.awt.Color(204, 204, 204));
         jTextField64.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField64.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField64.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField64.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField64);
 
         jTextField65.setBackground(new java.awt.Color(204, 204, 204));
         jTextField65.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField65.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField65.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField65.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField65);
 
         jTextField66.setBackground(new java.awt.Color(204, 204, 204));
         jTextField66.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField66.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField66.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField66.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField66.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField66ActionPerformed(evt);
@@ -616,12 +615,12 @@ public class SudokuInterfaz extends javax.swing.JFrame {
 
         jTextField67.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField67.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField67.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField67.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField67);
 
         jTextField68.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField68.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField68.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField68.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField68.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField68ActionPerformed(evt);
@@ -631,48 +630,48 @@ public class SudokuInterfaz extends javax.swing.JFrame {
 
         jTextField69.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField69.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField69.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField69.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField69);
 
         jTextField70.setBackground(new java.awt.Color(204, 204, 204));
         jTextField70.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField70.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField70.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField70.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField70);
 
         jTextField71.setBackground(new java.awt.Color(204, 204, 204));
         jTextField71.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField71.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField71.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField71.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField71);
 
         jTextField72.setBackground(new java.awt.Color(204, 204, 204));
         jTextField72.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField72.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField72.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField72.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField72);
 
         jTextField73.setBackground(new java.awt.Color(204, 204, 204));
         jTextField73.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField73.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField73.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField73.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField73);
 
         jTextField74.setBackground(new java.awt.Color(204, 204, 204));
         jTextField74.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField74.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField74.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField74.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField74);
 
         jTextField75.setBackground(new java.awt.Color(204, 204, 204));
         jTextField75.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField75.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField75.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField75.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField75);
 
         jTextField76.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField76.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField76.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField76.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField76.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField76ActionPerformed(evt);
@@ -682,18 +681,18 @@ public class SudokuInterfaz extends javax.swing.JFrame {
 
         jTextField77.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField77.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField77.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField77.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField77);
 
         jTextField78.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField78.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField78.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField78.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField78);
 
         jTextField79.setBackground(new java.awt.Color(204, 204, 204));
         jTextField79.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField79.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField79.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField79.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField79.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField79ActionPerformed(evt);
@@ -704,13 +703,13 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         jTextField80.setBackground(new java.awt.Color(204, 204, 204));
         jTextField80.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField80.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField80.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField80.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField80);
 
         jTextField81.setBackground(new java.awt.Color(204, 204, 204));
         jTextField81.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jTextField81.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField81.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTextField81.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jTextField81);
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.CENTER);
