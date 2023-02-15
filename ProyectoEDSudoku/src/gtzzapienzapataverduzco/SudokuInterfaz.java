@@ -147,7 +147,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         });
         jPanel3.add(SolveBtn);
 
-        ClearBtn.setBackground(new java.awt.Color(255, 153, 153));
+        ClearBtn.setBackground(new java.awt.Color(155, 255, 255));
         ClearBtn.setText("Reiniciar");
         ClearBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
