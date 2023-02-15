@@ -68,7 +68,7 @@
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="b9" red="ef" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Reglas Sudok"/>
+            <Property name="text" type="java.lang.String" value="Reglas Sudoku"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RulesBtnActionPerformed"/>
