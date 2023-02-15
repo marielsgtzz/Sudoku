@@ -138,7 +138,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         });
         jPanel3.add(Mensaje);
 
-        SolveBtn.setBackground(new java.awt.Color(204, 255, 153));
+        SolveBtn.setBackground(new java.awt.Color(164, 255, 203));
         SolveBtn.setText("Resolver");
         SolveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,7 +147,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         });
         jPanel3.add(SolveBtn);
 
-        ClearBtn.setBackground(new java.awt.Color(255, 153, 153));
+        ClearBtn.setBackground(new java.awt.Color(155, 255, 255));
         ClearBtn.setText("Reiniciar");
         ClearBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -156,7 +156,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
         });
         jPanel3.add(ClearBtn);
 
-        RulesBtn.setBackground(new java.awt.Color(255, 255, 204));
+        RulesBtn.setBackground(new java.awt.Color(239, 185, 255));
         RulesBtn.setText("Reglas Sudoku");
         RulesBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -853,7 +853,7 @@ public class SudokuInterfaz extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField2ActionPerformed
 
     private void RulesBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RulesBtnActionPerformed
-        // TODO add your handling code here:
+        // TODO add your handling code here: 
         JOptionPane.showMessageDialog(null, "-Regla 1: hay que completar las casillas vacías con un solo número del 1 al 9.\n" +
                                             "-Regla 2: en una misma fila no puede haber números repetidos.\n" +
                                             "-Regla 3: en una misma columna no puede haber números repetidos.\n" +
